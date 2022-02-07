@@ -56,16 +56,10 @@
           "bundleName": "logaligroup.sapui5.i18n.i18n"
         }
       },
-      "": {
-        "dataSource": "mainService",
-        "preload": true,
-        "settings": {
-          "synchronizationMode": "None",
-          "operationMode": "Server",
-          "autoExpandSelect": true,
-          "earlyRequests": true,
-          "groupId": "$direct"
-        }
+      "invoices": {
+         "type" : "sap.ui.model.json.JSONModel",
+         "uri" : "invoices.json"
+     
       }
     },
     "resources": {
